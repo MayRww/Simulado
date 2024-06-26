@@ -1,4 +1,4 @@
-public class Endereco {
+class Endereco {
     private String rua;
     private String cidade;
 
@@ -17,9 +17,6 @@ public class Endereco {
 
     @Override
     public String toString() {
-        return "Endereco{" +
-               "rua='" + rua + '\'' +
-               ", cidade='" + cidade + '\'' +
-               '}';
+        return "Endereco{rua='" + rua + "', cidade='" + cidade + "'}";
     }
 }
